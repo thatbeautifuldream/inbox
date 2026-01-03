@@ -55,7 +55,7 @@ export default function Home() {
               key={email.id}
               type="button"
               onClick={() => setSelectedEmail(email)}
-              className={`w-full border-b border-neutral-800 p-4 text-left transition-colors hover:bg-neutral-800 ${
+              className={`w-full border-b border-neutral-800 p-4 text-left transition-colors hover:bg-neutral-800 cursor-pointer ${
                 email.read === "true" ? "bg-neutral-950" : "bg-neutral-900"
               }`}
             >
