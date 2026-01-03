@@ -1,0 +1,145 @@
+export const inbox = [
+  {
+    id: "1",
+    from: "Sample User",
+    address: "john@teamworks.com",
+    time: "2021-10-07 15:35:14",
+    message:
+      "Duis cursus, diam at pretium aliquet, metus urna convallis erat, eget tincidunt dui augue eu tellus. Phasellus elit pede, malesuada vel, venenatis vel, faucibus id, libero. Donec consectetuer mauris id sapien. Cras",
+    subject: "Teamworks Interview",
+    tag: "inbox",
+    read: "false",
+  },
+  {
+    id: "2",
+    from: "Dribbble",
+    address: "digest@dribbble.com",
+    time: "2021-05-09 14:23:54",
+    message:
+      "Here are the latest shots from Dribbblers you follow! Nec mauris blandit mattis. Cras eget nisi dictum augue malesuada malesuada. Integer id magna et ipsum cursus vestibulum. Mauris magna. Duis dignissim tempor arcu. Vestibulum ut eros non enim commodo hendrerit. Donec porttitor tellus non magna. Nam ligula elit, pretium et, rutrum non, hendrerit id, ante. Nunc mauris sapien,",
+    subject: "Dribbble Digest",
+    tag: "inbox",
+    read: "false",
+  },
+  {
+    id: "3",
+    from: "Slack HQ",
+    address: "fishbowl@slack.com",
+    time: "2021-07-21 09:47:57",
+    message:
+      "Click here to consectetuer rhoncus. Nullam velit dui, semper et, lacinia vitae, sodales at, velit. Pellentesque ultricies dignissim lacus. Aliquam rutrum lorem ac risus. Morbi",
+    subject: "Join the Fishbowl Team",
+    tag: "inbox",
+    read: "false",
+  },
+  {
+    id: "4",
+    from: "StackOverflow",
+    address: "no-reply@stackoverflow.com",
+    time: "2021-06-29 15:39:06",
+    message:
+      "You're almost done! Finish registering your account. Cum sociis natoque penatibus et magnis dis parturient",
+    subject: "Verify your StackOverflow account",
+    tag: "inbox",
+    read: "true",
+  },
+  {
+    id: "5",
+    from: "Pastebin.com",
+    address: "no-reply@pastebin.com",
+    time: "2021-03-14 09:43:27",
+    message:
+      "Buy a cheap lifetime subscrition today! Quis massa. Mauris vestibulum, neque sed dictum eleifend, nunc risus varius orci, in consequat enim diam vel arcu. Curabitur ut odio vel est tempor bibendum. Donec felis orci, adipiscing non, luctus sit amet, faucibus ut, nulla.",
+    subject: "Pastebin PRO",
+    tag: "deleted",
+    read: "true",
+  },
+  {
+    id: "6",
+    from: "TurboTax Online",
+    address: "no-reply@turbotax.com",
+    time: "2021-08-01 19:51:23",
+    message:
+      "Your tax refund for 2015 entitles you to $12.03. Fantastic! Integer vulputate, risus a ultricies adipiscing, enim mi tempor lorem, eget mollis lectus pede",
+    subject: "Your refund is waiting",
+    tag: "deleted",
+    read: "true",
+  },
+  {
+    id: "7",
+    from: "Codepen Info",
+    address: "no-reply@codepen.io",
+    time: "2021-07-05 18:20:04",
+    message:
+      "Great job! Cursus in, hendrerit consectetuer, cursus et, magna. Praesent interdum ligula eu enim. Etiam imperdiet dictum magna. Ut tincidunt orci quis lectus. Nullam suscipit, est ac",
+    subject: "Your pen reached 1,000 views!",
+    tag: "inbox",
+    read: "true",
+  },
+  {
+    id: "8",
+    from: "Lithium Hosting",
+    address: "sales@lithium.io",
+    time: "2021-03-16 13:49:17",
+    message:
+      "Aliquam erat volutpat. Nulla facilisis. Suspendisse commodo tincidunt nibh. Phasellus nulla. Integer",
+    subject: "LH - Renewal",
+    tag: "inbox",
+    read: "true",
+  },
+  {
+    id: "9",
+    from: "American Airlines",
+    address: "tickets@aa.com",
+    time: "2021-02-17 21:00:15",
+    message:
+      "Thank you for booking two tickets for Seattle. Etiam ligula tortor, dictum eu, placerat eget, venenatis a, magna. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam laoreet, libero et tristique pellentesque, tellus sem mollis dui, in sodales elit erat vitae risus. Duis a mi fringilla mi lacinia mattis. Integer eu lacus.",
+    subject: "Trip to Seattle",
+    tag: "inbox",
+    read: "true",
+  },
+  {
+    id: "10",
+    from: "Carol Bender",
+    address: "carol@humaninterest.com",
+    time: "2021-03-17 08:13:14",
+    message:
+      "Hi Max, please fill out the attached form. Ut aliquam iaculis, lacus pede sagittis augue, eu tempor erat neque non quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam fringilla cursus purus. Nullam scelerisque neque sed sem",
+    subject: "401k Submission Forms",
+    tag: "inbox",
+    read: "true",
+  },
+  {
+    id: "11",
+    from: "Steam Support",
+    address: "support@steampowered.com",
+    time: "2021-02-23 19:02:54",
+    message:
+      "Game is on sale to celebrate the launch! Vel, venenatis vel, faucibus id, libero. Donec consectetuer mauris id sapien. Cras dolor dolor, tempus non, lacinia at, iaculis quis, pede. Praesent eu dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur",
+    subject: "An item from your wishlist is on sale",
+    tag: "inbox",
+    read: "true",
+  },
+  {
+    id: "12",
+    from: "Fitbit",
+    address: "fit@bit.io",
+    time: "2015-08-30 14:00:12",
+    message:
+      "Wow! Impressive! Risus a ultricies adipiscing, enim mi tempor lorem, eget mollis lectus pede et risus. Quisque libero lacus, varius et, euismod et, commodo at, libero. Morbi accumsan laoreet ipsum. Curabitur consequat, lectus sit amet luctus vulputate, nisi sem semper erat,",
+    subject: "You took a lot of steps!",
+    tag: "inbox",
+    read: "true",
+  },
+  {
+    id: "13",
+    from: "Amazon Pantry",
+    address: "pantry@amazon.com",
+    time: "2015-12-19 06:35:19",
+    message:
+      "Your food is on the way. Nunc, ullamcorper eu, euismod ac, fermentum vel, mauris. Integer sem elit, pharetra ut, pharetra sed, hendrerit a, arcu. Sed et libero. Proin mi. Aliquam gravida mauris ut",
+    subject: "Your item(s) have shipped.",
+    tag: "inbox",
+    read: "true",
+  },
+];
