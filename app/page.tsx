@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { formatEmailDate, formatFullDate } from "@/lib/date-utils";
 
 type Email = {
   id: string;
@@ -43,8 +44,8 @@ export default function Home() {
   }
 
   return (
-    <div className="grid h-screen grid-cols-1 gap-px md:grid-cols-3">
-      <div className="overflow-y-auto md:col-span-1">
+    <div className="grid h-screen grid-cols-1 md:grid-cols-3">
+      <div className="overflow-y-auto border-r border-neutral-800 md:col-span-1">
         <div className="border-b border-neutral-800 p-4">
           <h1 className="text-2xl font-semibold text-neutral-50">Inbox</h1>
         </div>
@@ -66,13 +67,15 @@ export default function Home() {
                 {email.subject}
               </div>
               <div className="mb-1 text-sm text-neutral-400">{email.from}</div>
-              <div className="text-xs text-neutral-600">{email.time}</div>
+              <div className="text-xs text-neutral-600">
+                {formatEmailDate(email.time)}
+              </div>
             </button>
           ))}
         </div>
       </div>
 
-      <div className="overflow-y-auto md:col-span-2">
+      <div className="overflow-y-auto border-t border-neutral-800 md:col-span-2 md:border-t-0">
         {selectedEmail ? (
           <div>
             <div className="border-b border-neutral-800 p-6">
@@ -85,7 +88,7 @@ export default function Home() {
               </div>
               <div className="text-sm text-neutral-400">
                 <strong className="text-neutral-300">Date:</strong>{" "}
-                {selectedEmail.time}
+                {formatFullDate(selectedEmail.time)}
               </div>
             </div>
             <div className="p-6 leading-relaxed text-neutral-300">
